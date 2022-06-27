@@ -17,6 +17,9 @@ import EditProfessor from "./components/crud/professor/EditProfessor";
 //import Page1 from "./components/Page1";
 //import Page2 from "./components/Page2";
 
+<>
+  <Route path="listStudent" element={<ListStudent setShowToast={setShowToast} setToast={setToast} />} /><Route path="editStudent/:id" element={<EditStudent setShowToast={setShowToast} setToast={setToast} />} /></>
+
 function App() {
   function studentDropDown() {
     return (
